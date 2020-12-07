@@ -21,5 +21,10 @@ def removeYearsInFuture(df, present_year=2018):
     
     df.drop(columns=years_to_drop, inplace=True)
 
-def columns2Ints(df):
+
+def columns2Int(df):
     df.columns = df.columns.astype(int)
+
+
+def values2Float(df):
+    return df.astype(float)
