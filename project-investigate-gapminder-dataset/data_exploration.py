@@ -7,6 +7,11 @@ import matplotlib.pyplot as plt
 
 
 def plotLine(df, countries_to_plot, title, ylabel):
+    '''Output: Line plot of the value in df for the given countries (index)
+       Input: df (DataFrame)
+              countries_to_plot ([str]): a list of countries from df to plot
+              title (str): the title of the plot
+              ylabel (str): the ylabel of the plot'''
     plt.figure(figsize=(8, 8))
 
     for country in countries_to_plot:
