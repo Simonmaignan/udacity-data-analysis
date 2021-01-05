@@ -130,3 +130,7 @@ dmypy.json
 
 # Any playground
 *playground*
+
+# Any zip or csv file
+*.csv
+*.zip
