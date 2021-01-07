@@ -133,4 +133,8 @@ dmypy.json
 
 # Any zip or csv file
 *.csv
+*.tsv
 *.zip
+
+# Tweeter API keys
+tweeter_api_keys*
