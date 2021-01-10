@@ -137,4 +137,4 @@ dmypy.json
 *.zip
 
 # Tweeter API keys
-tweeter_api_keys*
+twitter_api_keys*
