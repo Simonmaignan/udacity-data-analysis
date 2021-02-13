@@ -21,8 +21,7 @@ def categorizeVariables(df_loan_data):
                         'Past Due (1-15 days)',
                         'Current',
                         'FinalPaymentInProgress',
-                        'Completed',
-                        'Cancelled',]
+                        'Completed',]
     loan_status_class = pd.api.types.CategoricalDtype(ordered=True, categories=loan_status_list)
     df_loan_data.LoanStatus = df_loan_data.LoanStatus.astype(loan_status_class);
     
