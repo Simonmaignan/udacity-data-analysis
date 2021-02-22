@@ -1,14 +1,9 @@
 import pandas as pd
 
 def categorizeVariables(df_loan_data):
-    # Borrower state from string to category
-    df_loan_data.BorrowerState = df_loan_data.BorrowerState.astype('category')
     
     # Occupation from string to category
     df_loan_data.Occupation = df_loan_data.Occupation.astype('category')
-    
-    # Employment status from string to category
-    df_loan_data.EmploymentStatus = df_loan_data.EmploymentStatus.astype('category')
     
     # Loan status from string to ordered category
     loan_status_list = ['Chargedoff',
