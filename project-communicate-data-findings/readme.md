@@ -18,6 +18,7 @@ In this second part I performed 2 distincts data explorations:
 * Afterwards, I performed a bi and multi variate exploration of the variable by focusing on the relationship between the variables and especially the loan status and the borrower rate to try to explain which variables had an influence on those 2 special variables.
 
 ### Data explanation
+For the data explanation, I use the data set saved at the end of the data exploration because I had to clean the data again and created new variables
 
 
 ## Summary of Findings
@@ -37,15 +38,12 @@ Outside of the main variable of interest, I could notice that people that owns a
 
 ## Key Insights for Presentation
 
-For the presentation, I focus on just the influence of the four Cs of diamonds
-and leave out most of the intermediate derivations. I start by introducing the
-price variable, followed by the pattern in carat distribution, then plot the
-transformed scatterplot.
+For the presentation, I focus on just the influence of the Loan Status and Borrower Rate one on the other.
+We can notice that the borrower stopping their payments have a significantly higher rate than the one completing their loans.
 
-Afterwards, I introduce each of the categorical variables one by one. To start,
-I use the violin plots of price and carat across clarity. I'm only looking at
-the clarity grade plot here since it's the clearest example of how the
-categorical quality grades affect diamond pricing. The other two categorical
-variables, cut and color, are covered afterwards, using point plots. I've made
-sure to use different color palettes for each quality variable to make sure it
-is clear that they're different between plots.
+I also focus on the evolution of the Loan status and the Borrower average rate over time.
+We can notice that after the 2008 financial crisis, the number of loans almost stopped and that it sky roketed between 2011 and 2014.
+
+To finish I showed the influence of owning a home and the borrower credit score on the borrower rate.
+We can notice that the higher the credit score, the lower the borrower rate.
+We can also notice that home owner have higher credit scores and lower borrower rate.
